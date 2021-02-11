@@ -3,8 +3,7 @@ The script is written in the Java programming language, TestNG and Rest Assured 
 
 To run this script and get a report in HTML format, you need:
 
-1. In the testng.xml file, change the path to the "wallet-calculation-api" project, the "name" parameter 
-this line -> <test verbose = "2" preserve-order = "true" name = "C:/Users/User/IdeaProjects/wallet-calculation-api">
+1. In the testng.xml file, change the path to the "wallet-calculation-api" project, the "name" parameter
 
 2. Run the script by right-click on the testng.xml file and click on Run /testng.xml/
 
