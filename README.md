@@ -10,8 +10,11 @@ To run this script and get a report in HTML format, you need:
 3. After completing all tests, open the edit configuration in the upper right corner, open the Listeners tab.
 
 3.1 Left-click on the plus button in the lower left part of the tab
+
 3.2 Enter EmailableReporter in the line and click Ok
+
 3.3 Enter FaieldReporter in the line and click Ok
+
 3.4 Click Applye and then Ok
 
 4. Run the script again by right-clicking on the testng.xml file and click on Run /testng.xml/
