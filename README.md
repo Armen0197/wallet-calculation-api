@@ -3,17 +3,18 @@ The script is written in the Java programming language, TestNG and Rest Assured 
 
 To run this script and get a report in HTML format, you need:
 
-1. In the testng.xml file, change the path to the wallet-calculation-api project (if it need), the "name" parameter (<test verbose = "2" preserve-order = "true" name = "C: / Users / User / IdeaProjects / wallet- calculation-api ">)
+1. In the testng.xml file, change the path to the "wallet-calculation-api" project, the "name" parameter 
+(<test verbose = "2" preserve-order = "true" name = "C:/Users/User/IdeaProjects/wallet-calculation-api">)
 
-2. Run the script by clicking on the right mouse button on the testng.xml file and click on Run /testng.xml/
+2. Run the script by right-click on the testng.xml file and click on Run /testng.xml/
 
-3. After completing all tests, open the edit configuration in the upper right corner, open the Listeners tab.
+3. After completing all tests, open the Edit Configurations in the upper right corner, open the Listeners tab.
 
 3.1 Left-click on the plus button in the lower left part of the tab
 
-3.2 Enter EmailableReporter in the line and click Ok
+3.2 Enter EmailableReporter in the line choose the first and click Ok
 
-3.3 Enter FaieldReporter in the line and click Ok
+3.3 Enter FaieldReporter in the line choose the first and click Ok
 
 3.4 Click Applye and then Ok
 
