@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="C:/Users/User/IdeaProjects/wallet-calculation-api(failed)">
+    <classes>
+      <class name="walletcalculationtests.WalletCalculationTests">
+        <methods>
+          <include name="setup"/>
+          <include name="calculationForCashCollection" invocation-numbers="2 4 5 10 15 18 19 22 23"/>
+          <include name="calculationForAccount" invocation-numbers="2 4 5 10 15 18 19 23"/>
+        </methods>
+      </class> <!-- walletcalculationtests.WalletCalculationTests -->
+    </classes>
+  </test> <!-- C:/Users/User/IdeaProjects/wallet-calculation-api(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
